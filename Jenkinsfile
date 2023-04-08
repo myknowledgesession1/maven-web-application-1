@@ -15,7 +15,7 @@ stages{
 	
 	}
   }
-  
+/*
   stage('Build'){
   steps{
   sh  "mvn clean package"
@@ -40,6 +40,6 @@ stages{
    sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@18.191.251.203:/opt/apache-tomcat-9.0.73/webapps"   
   }
   }
-  }
+  }*/
 }//Stages Closing
 }//Pipeline closing
