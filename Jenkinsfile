@@ -3,6 +3,7 @@ pipeline{
 agent any
 
 tools{
+git 'Default'
 maven 'maven'
 
 }
